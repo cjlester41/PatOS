@@ -16,9 +16,7 @@ environment.systemPackages = with pkgs; [
     vulkan-tools
     ananicy-cpp
     ananicy-rules-cachyos   
-
-    android-studio
-    
+   
   ];
   
   hardware.graphics.extraPackages = with pkgs; [
